@@ -10,7 +10,7 @@ router.get('/', function(req, res) {
 
 
 router.get('/author/creditos', function(req, res) {
-  res.render('creditos', { title:'Cr&eacute;ditos'});
+  res.render('/author/creditos', { title:'Cr&eacute;ditos'});
 });
 
 router.get('/quizes/question', quizController.question);
